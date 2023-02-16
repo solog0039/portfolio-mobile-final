@@ -209,12 +209,8 @@ table {
   display: flex;
   flex-direction: column;
   padding-top: 086px;
-  min-height: 95vh;
+  min-height: 85vh;
   background: #1c1a19;
-  background-image: url("./assets/images/Group.png");
-  background-repeat: no-repeat;
-  background-attachment: local;
-  background-position: 64.5vw 66vh;
 }
 
 .headline {
@@ -255,18 +251,30 @@ table {
   max-height: 123px;
 }
 
+.socio-image {
+  display: flex;
+  height: 180px;
+}
+
 .socila-link {
   margin-top: 20px;
+  border: 1px solid white;
   display: flex;
   gap: 20px;
   color: #dbd8d7;
-  width: 70vw;
-  padding: 12px 35px;
-  padding-right: 0;
+  width: 60vw;
+  padding-left: 35px;
 }
 
 .social:hover {
   background-color: blue;
+}
+
+.socio-image > img {
+  align-self: center;
+  width: 40vw;
+  height: 250px;
+  border: 1px solid white;
 }
 
 /* Second page and cards */
@@ -275,6 +283,7 @@ table {
   display: grid;
   background: fff;
   margin-right: 1px;
+  padding-left: 3px;
 }
 
 .h21-line {
@@ -320,6 +329,7 @@ hr.line {
 }
 
 .multi-story {
+  padding: 24px 0 12px 0;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -342,6 +352,7 @@ hr.line {
 ul.skills {
   display: flex;
   flex: 1;
+  gap: 12px;
   list-style: none;
   margin-top: 2vh;
 }
@@ -356,7 +367,6 @@ ul.skills {
 }
 
 .skill {
-  margin-left: 6vw;
   padding: 2vw;
   border: 2px solid #8993a4;
 }
@@ -393,12 +403,14 @@ ul.skills {
   background-image: url(./assets/images/Placeholder1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 88vw;
+  margin-left: 24px;
+  margin-right: 24px;
+  bottom: 1px solid green;
 }
 
 .prof-art {
-  margin-top: 17vh;
-  margin-left: 6px;
+  margin-top: 90px;
+  padding-left: 12px;
   color: #fff;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -408,8 +420,7 @@ ul.skills {
 }
 
 .p22 {
-  padding: 2vw;
-  margin-left: 6px;
+  padding-left: 12px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -421,7 +432,7 @@ ul.skills {
 ul.skils {
   display: flex;
   width: 65vw;
-  margin-bottom: 3vh;
+  padding-bottom: 18px;
 }
 
 .see-project-2 :hover {
@@ -453,7 +464,7 @@ ul.skils :first-child :hover {
 }
 
 .skil {
-  margin-left: 6vw;
+  margin-left: 12px;
   padding: 2vw;
   border: 2px solid #8993a4;
   background: rgba(255, 255, 255, 0.24);
@@ -478,8 +489,8 @@ ul.skils :first-child :hover {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  width: 82vw;
-  margin-bottom: 10vh;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 /* About me  */
@@ -488,6 +499,7 @@ ul.skils :first-child :hover {
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
+  margin-top: 120px;
 }
 
 .about-me {

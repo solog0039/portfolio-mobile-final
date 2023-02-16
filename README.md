@@ -58,8 +58,6 @@ Portfolio: finish mobile version  project is the second part of my portiflio .
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
-
   > None
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -87,12 +85,15 @@ Copy the projects URL from github then clone from your code editor
 Install almost all dependencies.
 This one will install stylelinter:
 
-> npm install --save-dev
-> stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+> npm install
 
 ### Usage
 
-To run the project, execute in live server.
+To run this project:
+ 1. open the whole project in VS code 
+ 2. right click on the HTML file
+ 3. select the "open with live server" option.
+
 
 ## 👥 Authors <a name="authors"></a>
 
